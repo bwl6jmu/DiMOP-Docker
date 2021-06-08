@@ -4,7 +4,7 @@
 
 1. Install Docker https://www.docker.com/get-started
 2. open PowerShell (on Windows) or Terminal (on Mac / Linux)
-3. type `docker build https://raw.githubusercontent.com/chilligerchief/DiMOP-Docker/main/Dockerfile -t dimop`
+3. type `docker build https://raw.githubusercontent.com/bwl6jmu/DiMOP-Docker/main/Dockerfile -t dimop`
 4. execute command
 5. type `docker run -d -p 80:5000 --name dimop dimop`
 6. execute command
