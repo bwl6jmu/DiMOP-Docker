@@ -6,6 +6,7 @@
 2. open PowerShell (on Windows) or Terminal (on Mac / Linux)
 3. type `docker build https://raw.githubusercontent.com/chilligerchief/DiMOP-Docker/main/Dockerfile -t dimop`
 4. execute command
-5. type `docker run -p 5000:5000 dimop`
+5. type `docker run -d -p 80:5000 --name dimop dimop`
 6. execute command
-7. open DiMOP Platform in Browser http://127.0.0.1:5000
+7. open DiMOP Platform in Browser http://127.0.0.1
+8. in the Docker Desktop Interface you can stop and start the DiMOP container if needed.
